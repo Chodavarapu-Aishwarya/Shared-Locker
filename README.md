@@ -1,6 +1,6 @@
 # Shared-Locker-
-➔ A c++ based shared locker which allows user to configure and use the locker. 
-➔ The encoding and decoding of the locker id and the shared keys among users is done using Chinese Reminder Theorm and GCD principles.
+➔ A c++ based shared locker which allows user to configure and use the locker. The encoding and decoding of the locker id and the shared keys among users is done 
+   using Chinese Reminder Theorm and GCD principles.
 
 ➔ In the main function, a variable exit status is set to 0.
 ➔ While the exit status remains 0, the loop runs.
@@ -34,6 +34,5 @@
      ◆ If the user enters 3, the EXIT module, the variable exit status is changed to 1 and the loop breaks ending the program.
 
 
-➔ The code seems to work well for k = 7 and a 8 digit Locker key value(99999999) and also for k = 8 for small L values.
-
-➔ Long long int(ll) and unsigned long long int(ull) are used to prevent any integer overflow errors.
+➔ The code seems to work well for k = 7 and a 8 digit Locker key value(99999999) and also for k = 8 for small L values. Long long int(ll) and unsigned long long 
+   int(ull) are used to prevent any integer overflow errors.
