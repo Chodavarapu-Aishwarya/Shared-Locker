@@ -35,4 +35,5 @@
 
 
 ➔ The code seems to work well for k = 7 and a 8 digit Locker key value(99999999) and also for k = 8 for small L values.
+
 ➔ Long long int(ll) and unsigned long long int(ull) are used to prevent any integer overflow errors.
